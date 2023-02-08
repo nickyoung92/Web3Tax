@@ -133,7 +133,7 @@ async function runProgram() {
     for (let i = 0; i < tokenIDs.length; i++) {
         const tokenId = tokenIDs[i];
         await getOpenseaSharedStorefront(tokenId)
-        workbook.xlsx.writeFile(`${root}/Scripts/Javascript/tax3/OpenseaSharedStorefrontSales.xlsx`)
+        workbook.xlsx.writeFile(`${root}/OpenseaSharedStorefrontSales.xlsx`)
     }
 
     
