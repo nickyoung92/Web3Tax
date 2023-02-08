@@ -17,7 +17,8 @@ npm i exceljs web3
 Enter your Alchemy API key.
 You can get an Alchemy API key [HERE](https://www.alchemy.com/).
 sellerAddress should be the creator address
-Token IDs can be found by navigating to the specific NFT on opensea, and copying the token ID from the URL. ~~https://opensea.io/assets/ethereum/0x495f947276749ce646f68ac8c248420045cb7b5e/~~**99987703356627791248718096200836925898283202222594062307228320089954515419137**
+Token IDs can be found by navigating to the specific NFT on opensea, and copying the token ID from the URL. ~~'opensea.io/assets/ethereum/0x495f947276749ce646f68ac8c248420045cb7b5e/~~
+**99987703356627791248718096200836925898283202222594062307228320089954515419137**'
 
 ```javascript
 const alchemyAPI = "YOUR_API_KEY" //replace with your own alchemy API key
