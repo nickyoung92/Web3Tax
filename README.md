@@ -1,4 +1,4 @@
-# Foobar
+# getOpenseaSharedStorefront
 
 This is a javascript program that utilizes node packages web3 and exceljs to capture the sales history of NFT's created through the opensea shared storefront. It will capture and separate both initial sales, and royalties. Each transaction takes 5 seconds to be in line with the coingecko api free plan pricing, but may be increased through code improvements or faster api source. 
 
